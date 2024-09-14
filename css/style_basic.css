@@ -27,7 +27,15 @@ body{
 }
 
 main{
-    margin: 20px
+    margin: 20px;
+}
+
+/* P-paragraph styling */
+
+p.order_bodytext{
+    text-align: justify;
+    line-height: 1.5em;
+    text-indent: 25px;
 }
 
 /* Miscellaneous classes */
