@@ -1,0 +1,125 @@
+/* Top Navigation Bar */
+
+.navtopbar ul{
+    list-style-type: none;
+    background-color: whitesmoke;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navtopbar a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navtopbar li{
+    float: left;
+}
+
+/* Body and Main */
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+main{
+    margin: 20px;
+}
+
+/* P-paragraph styling */
+
+p.order_bodytext{
+    text-align: justify;
+    line-height: 2em;
+    text-indent: 25px;
+}
+
+/* Miscellaneous classes */
+/* Contact Information Page */
+
+/* .contactinfo ul{
+/*     list-style-type: none;
+/* }
+
+/* Ordered List Sublist: Credit to Moshe Simantov in 
+https://stackoverflow.com/questions/10405945/html-ordered-list-1-1-1-2-nested-counters-and-scope-not-working
+*/
+ol {
+    counter-reset: item;
+}
+
+ol > li {
+    counter-increment: item;
+}
+
+ol ol > li {
+    display: block;
+}
+
+ol ol > li:before {
+    content: counters(item, ".") ". ";
+    margin-left: -20px;
+}
+
+/* Status Messages */
+.alert{
+    padding: 8px;
+    background-color: red;
+    color: white;
+}
+
+.success{
+    padding: 8px;
+    background-color: green;
+    color: white;
+}
+
+.warn{
+    padding: 8px;
+    background-color: yellow;
+    color: black;
+}
+
+.notice{
+    padding: 8px;
+    background-color: orange;
+    color: white;
+}
+
+/* Decoratives */
+.effectdate{
+    padding: 8px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Tables */
+
+.ordertable{
+    height: 18px;
+    width: 100%;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+
+.ordertable tr{
+    height: 18px;
+    width: 100%;
+}
+
+.ordertable tr td{
+    height: 18px;
+    width: 50%;
+}
+
+.ordertable tr .ordertable_parties{
+    border-left: 0px;
+    border-top: 0px;
+    border-right-style: double;
+    border-bottom-style: double;
+}
